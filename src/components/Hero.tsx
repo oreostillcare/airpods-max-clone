@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AppleImage } from "@/components/AppleImage";
 import { appleImages } from "@/lib/images";
 import { Navigation } from "@/components/Navigation";
 
@@ -82,21 +81,19 @@ export function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.25, 0.4, 0.25, 1] }}
             className="space-y-2 md:space-y-4"
-          >
-            <motion.h1
+          >            <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2, delay: 0.2, ease: [0.25, 0.4, 0.25, 1] }}
-              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-black backdrop-blur-sm px-2 md:px-4 py-1 md:py-2 rounded"
+              className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-black px-2 md:px-4 py-1 md:py-2 rounded"
             >
               AirPods Max
             </motion.h1>
-            
-            <motion.h2
+              <motion.h2
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.2, delay: 0.4, ease: [0.25, 0.4, 0.25, 1] }}
-              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight text-black backdrop-blur-sm px-2 md:px-4 py-1 md:py-2 rounded"
+              className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight text-black px-2 md:px-4 py-1 md:py-2 rounded"
             >
               Symphonic boom.
             </motion.h2>
@@ -108,8 +105,7 @@ export function Hero() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, delay: 0.8, ease: [0.25, 0.4, 0.25, 1] }}
             className="flex flex-col sm:flex-row items-center gap-4"
-          >
-            <p className="text-xl md:text-2xl font-semibold text-black backdrop-blur-sm px-3 md:px-4 py-2 rounded">
+          >            <p className="text-xl md:text-2xl font-semibold text-black px-3 md:px-4 py-2 rounded">
               ₱23,990
             </p>
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 md:px-8 py-3 rounded-full text-base md:text-lg font-medium transition-colors backdrop-blur-sm">

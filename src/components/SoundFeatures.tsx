@@ -117,9 +117,8 @@ export function SoundFeatures() {
           <div className="text-center mb-8 md:mb-12 lg:mb-16">            
             <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold text-black mb-4 md:mb-6 lg:mb-8 leading-[0.9]">
               All the vivid details.
-            </h3>
-            <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
-              AirPods Max deliver stunningly detailed, high-fidelity audio for an unparalleled listening experience. Each part of the custom-built driver works to produce sound with ultra-low distortion across the audible range — so you'll hear every note with a new sense of clarity.
+            </h3>            <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
+              AirPods Max deliver stunningly detailed, high-fidelity audio for an unparalleled listening experience. Each part of the custom-built driver works to produce sound with ultra-low distortion across the audible range — so you&apos;ll hear every note with a new sense of clarity.
             </p>
           </div>
           
